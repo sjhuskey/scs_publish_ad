@@ -1,0 +1,10 @@
+{
+    "name": "sjhuskey/scs_publish_ad",
+    "description": "Provide a checkbox for publishing job adverstisements.",
+    "type": "drupal-custom-module",
+    "license": "GPL-2.0-or-later",
+    "author": {
+      "name": "Samuel J. Huskey",
+      "email": "samueljhuskey@gmail.com"
+  }
+}
