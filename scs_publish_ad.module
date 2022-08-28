@@ -16,7 +16,7 @@ function scs_publish_ad_entity_bundle_field_info(EntityTypeInterface $entity_typ
   $fields = [];
 
   // Whether the hook implementation was called for our group type.
-  if ($entity_type->id() == 'node' && in_array($bundle, 'job_advertisement') && !empty($base_field_definitions['status-value']['label'])) {
+  if ($entity_type->id() == 'node' && in_array($bundle, ['job_advertisement']) && !empty($base_field_definitions['status-value']['label'])) {
     // Create a base field override with custom title.
     $field = BaseFieldOverride::createFromBaseFieldDefinition($base_field_definitions['status-value'], $bundle);
     $field->setLabel(t('Check this box when you are ready to submit this proposal, then click the Save button below.'));
